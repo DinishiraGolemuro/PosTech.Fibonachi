@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="6.3.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PosTech.Fibonachi.Infrastructure\PosTech.Fibonachi.Infrastructure.csproj" />
+    <ProjectReference Include="..\PosTech.Fibonachi.Services\PosTech.Fibonachi.Services.csproj" />
+  </ItemGroup>
+
+</Project>
